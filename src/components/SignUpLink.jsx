@@ -5,7 +5,7 @@ const SignUpLink = () => {
   return (
     <Box toCenter mt4>
       Don't have an account?&nbsp;
-      <Box as='a' href='#' noUnderline blue500 _hover={['cursorPointer']}>
+      <Box as='a' href='#' noUnderline blue500 cursorPointer--hover>
         Sign up
       </Box>
     </Box>

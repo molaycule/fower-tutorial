@@ -11,7 +11,8 @@ const LoginButton = () => {
       white
       rounded-4
       textBase
-      _hover={['cursorPointer', 'bgBlue600']}>
+      cursorPointer--hover
+      bgBlue600--hover>
       Login
     </Box>
   );

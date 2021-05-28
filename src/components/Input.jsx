@@ -17,7 +17,8 @@ const Input = ({ type, label }) => {
         border-2
         borderGray100
         outlineNone
-        _focus={['border-2', 'borderBlue500']}
+        border-2--focus
+        borderBlue500--focus
       />
     </Box>
   );
