@@ -17,7 +17,6 @@ const Input = ({ type, label }) => {
         border-2
         borderGray100
         outlineNone
-        border-2--focus
         borderBlue500--focus
       />
     </Box>
