@@ -11,8 +11,8 @@ const Input = ({ type, label }) => {
       <Box
         as='input'
         type={type}
-        px2
-        py3
+        px-8
+        py-12
         rounded-4
         border-2
         borderGray100

@@ -10,12 +10,12 @@ import ForgotPasswordLink from './components/ForgotPasswordLink';
 function App() {
   return (
     <Box row toCenter bgBlue500 w='100%' h='100vh'>
-      <Box flex={1} bgWhite>
+      <Box flex={1} bgWhite hidden block--xl>
         <LoginImage />
       </Box>
-      <Box flex={1} column toCenter>
+      <Box flex={1} column toCenter px-16>
         <LoginInfo />
-        <Box column bgWhite p4 rounded-10 shadowMD w='350px'>
+        <Box column bgWhite p-16 rounded-10 shadowMD maxW-350 w-350--sm>
           <Box column gap-10>
             <Input type='text' label='Email' />
             <Input type='password' label='Password' />

@@ -5,8 +5,8 @@ const LoginButton = () => {
   return (
     <Box
       as='button'
-      p3
-      mt5
+      p-12
+      mt-20
       bgBlue500
       white
       rounded-4
